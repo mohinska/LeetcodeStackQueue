@@ -20,15 +20,14 @@ class MyStack:
         return self.q1[-1]
 
     def empty(self) -> bool:
-        return bool(self.q1)
-
+        print(self.q1)
+        return not bool(self.q1)
 
 
 # Your MyStack object will be instantiated and called as such:
 # obj = MyStack()
-# obj.push(32)
-# obj.push(3)
-# print(obj.q1)
-# print(obj.pop())
+# obj.push(1)
+# obj.push(2)
 # print(obj.top())
+# print(obj.pop())
 # print(obj.empty())
