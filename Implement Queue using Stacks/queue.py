@@ -21,10 +21,3 @@ class MyQueue:
 
     def empty(self) -> bool:
         return self.stack1 == []
-
-# test = MyQueue()
-# test.push(3)
-# print(test.pop())
-# print(test.empty())
-# test.push(3)
-# print(test.empty())

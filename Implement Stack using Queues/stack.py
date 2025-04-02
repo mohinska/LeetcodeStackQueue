@@ -22,12 +22,3 @@ class MyStack:
     def empty(self) -> bool:
         print(self.q1)
         return not bool(self.q1)
-
-
-# Your MyStack object will be instantiated and called as such:
-# obj = MyStack()
-# obj.push(1)
-# obj.push(2)
-# print(obj.top())
-# print(obj.pop())
-# print(obj.empty())
